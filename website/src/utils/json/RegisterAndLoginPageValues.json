@@ -1,0 +1,16 @@
+{
+    "login": {
+        "title": "Login",
+        "link": "/register",
+        "linkname": "register",
+        "btnText": "Open Account",
+        "changemessage": "Don't have account?"
+    },
+    "register": {
+        "title": "Register",
+        "link": "/login",
+        "linkname": "login",
+        "btnText": "Create Account",
+        "changemessage": "Already have account?"
+    }
+}

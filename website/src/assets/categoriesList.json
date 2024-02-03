@@ -1,0 +1,202 @@
+[
+    {
+        "s.no": "cate001",
+        "categories": "Allergist/Immunologist",
+        "descriptions": "Focuses on allergies and disorders of the immune system."
+    },
+    {
+        "s.no": "cate002",
+        "categories": "Cardiologist",
+        "descriptions": "Deals with diseases and conditions of the heart and cardiovascular system."
+    },
+    {
+        "s.no": "cate003",
+        "categories": "Clinical Pharmacologist",
+        "descriptions": "Studies the effects of drugs and medications on the body and specializes in their clinical use."
+    },
+    {
+        "s.no": "cate004",
+        "categories": "Clinical Psychologist",
+        "descriptions": "Provides psychological assessments and therapy for mental health conditions."
+    },
+    {
+        "s.no": "cate005",
+        "categories": "Dermatologist",
+        "descriptions": "Specializes in skin, hair, and nail disorders."
+    },
+    {
+        "s.no": "cate006",
+        "categories": "Emergency Medicine Physician",
+        "descriptions": "Provides immediate medical care in emergency situations."
+    },
+    {
+        "s.no": "cate007",
+        "categories": "Endocrinologist",
+        "descriptions": "Deals with hormonal disorders and diseases of the endocrine system."
+    },
+    {
+        "s.no": "cate008",
+        "categories": "ENT Specialist (Otolaryngologist)",
+        "descriptions": "Treats disorders related to the ear, nose, and throat."
+    },
+    {
+        "s.no": "cate009",
+        "categories": "Forensic Pathologist",
+        "descriptions": "Investigates and determines the cause of death in legal and criminal cases."
+    },
+    {
+        "s.no": "cate010",
+        "categories": "Gastroenterologist",
+        "descriptions": "Specializes in the digestive system, including the stomach and intestines."
+    },
+    {
+        "s.no": "cate011",
+        "categories": "General Practitioner",
+        "descriptions": "Provides primary care for patients of all ages."
+    },
+    {
+        "s.no": "cate012",
+        "categories": "Geriatrician",
+        "descriptions": "Specializes in the care of elderly patients and age-related health issues."
+    },
+    {
+        "s.no": "cate013",
+        "categories": "Gynecologist/Obstetrician (GYN)",
+        "descriptions": "Specializes in women's reproductive health, pregnancy, and childbirth."
+    },
+    {
+        "s.no": "cate014",
+        "categories": "Hematologist",
+        "descriptions": "Deals with diseases related to the blood and blood-forming tissues."
+    },
+    {
+        "s.no": "cate015",
+        "categories": "Infectious Disease Epidemiologist",
+        "descriptions": "Specializes in studying and controlling the spread of infectious diseases within populations."
+    },
+    {
+        "s.no": "cate016",
+        "categories": "Infectious Disease Specialist",
+        "descriptions": "Specializes in infectious diseases caused by bacteria, viruses, fungi, or parasites."
+    },
+    {
+        "s.no": "cate017",
+        "categories": "Intensivist",
+        "descriptions": "Manages critically ill patients in intensive care units (ICUs)."
+    },
+    {
+        "s.no": "cate018",
+        "categories": "Internal Medicine Physician",
+        "descriptions": "Specializes in adult medicine, managing a wide range of diseases and conditions."
+    },
+    {
+        "s.no": "cate019",
+        "categories": "Interventional Radiologist",
+        "descriptions": "Uses imaging technology to perform minimally invasive procedures for diagnosis and treatment."
+    },
+    {
+        "s.no": "cate020",
+        "categories": "Medical Geneticist",
+        "descriptions": "Focuses on the study and management of genetic disorders."
+    },
+    {
+        "s.no": "cate021",
+        "categories": "Medical Microbiologist",
+        "descriptions": "Studies microorganisms and their effects on human health."
+    },
+    {
+        "s.no": "cate022",
+        "categories": "Nephrologist",
+        "descriptions": "Specializes in kidney diseases and disorders."
+    },
+    {
+        "s.no": "cate023",
+        "categories": "Neurologist",
+        "descriptions": "Focuses on disorders of the nervous system, including the brain and spinal cord."
+    },
+    {
+        "s.no": "cate024",
+        "categories": "Nuclear Medicine Physician",
+        "descriptions": "Utilizes radioactive substances for diagnostic and therapeutic purposes."
+    },
+    {
+        "s.no": "cate025",
+        "categories": "Oncologist",
+        "descriptions": "Specializes in the diagnosis and treatment of cancer."
+    },
+    {
+        "s.no": "cate026",
+        "categories": "Ophthalmologist",
+        "descriptions": "Specializes in eye and vision care."
+    },
+    {
+        "s.no": "cate027",
+        "categories": "Orthopedic Surgeon",
+        "descriptions": "Deals with musculoskeletal system issues, including bones, joints, ligaments, and tendons."
+    },
+    {
+        "s.no": "cate028",
+        "categories": "Pain Management Specialist",
+        "descriptions": "Focuses on managing and alleviating chronic pain conditions."
+    },
+    {
+        "s.no": "cate029",
+        "categories": "Palliative Care Specialist",
+        "descriptions": "Provides care for patients with serious or terminal illnesses, focusing on comfort and quality of life."
+    },
+    {
+        "s.no": "cate030",
+        "categories": "Pediatrician",
+        "descriptions": "Focuses on the healthcare of infants, children, and adolescents."
+    },
+    {
+        "s.no": "cate031",
+        "categories": "Physician (PM&R)",
+        "descriptions": "Specializes in the physical restoration and rehabilitation of patients with disabilities."
+    },
+    {
+        "s.no": "cate032",
+        "categories": "Psychiatrist",
+        "descriptions": "Specializes in mental health and treats psychiatric disorders."
+    },
+    {
+        "s.no": "cate033",
+        "categories": "Pulmonologist",
+        "descriptions": "Specializes in diseases of the respiratory system, including the lungs."
+    },
+    {
+        "s.no": "cate034",
+        "categories": "Reproductive Endocrinologist",
+        "descriptions": "Specializes in fertility issues and reproductive endocrinology."
+    },
+    {
+        "s.no": "cate035",
+        "categories": "Rheumatologist",
+        "descriptions": "Focuses on autoimmune and inflammatory diseases affecting joints and soft tissues."
+    },
+    {
+        "s.no": "cate036",
+        "categories": "Sleep Medicine Specialist",
+        "descriptions": "Deals with sleep disorders and conditions affecting sleep."
+    },
+    {
+        "s.no": "cate037",
+        "categories": "Sports Medicine Physician",
+        "descriptions": "Specializes in the treatment and prevention of sports-related injuries."
+    },
+    {
+        "s.no": "cate038",
+        "categories": "Transplant Surgeon",
+        "descriptions": "Performs organ transplantation surgeries."
+    },
+    {
+        "s.no": "cate039",
+        "categories": "Urologist",
+        "descriptions": "Deals with the urinary system and male reproductive organs."
+    },
+    {
+        "s.no": "cate040",
+        "categories": "Vascular Surgeon",
+        "descriptions": "Focuses on the surgical treatment of vascular (blood vessel) conditions."
+    }
+]

@@ -1,0 +1,202 @@
+.loadingPageBox {
+    --hue: 223;
+    --bg: hsl(var(--hue), 90%, 95%);
+    --fg: hsl(var(--hue), 90%, 5%);
+    --trans-dur: 0.3s;
+    font-size: calc(16px + (24 - 16) * (100vw - 320px) / (1280 - 320));
+
+
+    background-color: var(--bg);
+    color: var(--fg);
+    font: 1em/1.5 sans-serif;
+    height: calc(100vh - 241px);
+    display: grid;
+    place-items: center;
+    transition: background-color var(--trans-dur);
+
+    .mainBox {
+        padding: 1.5em 0;
+    }
+
+    .ip {
+        width: 16em;
+        height: 8em;
+    }
+
+    .ip__track {
+        stroke: hsl(var(--hue), 90%, 90%);
+        transition: stroke var(--trans-dur);
+    }
+
+    .ip__worm1,
+    .ip__worm2 {
+        animation: worm1 2s linear infinite;
+    }
+
+    .ip__worm2 {
+        animation-name: worm2;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg: hsl(var(--hue), 90%, 5%);
+            --fg: hsl(var(--hue), 90%, 95%);
+        }
+
+        .ip__track {
+            stroke: hsl(var(--hue), 90%, 15%);
+        }
+    }
+
+
+
+}
+
+@keyframes worm1 {
+    from {
+        stroke-dashoffset: 0;
+    }
+
+    50% {
+        animation-timing-function: steps(1);
+        stroke-dashoffset: -358;
+    }
+
+    50.01% {
+        animation-timing-function: linear;
+        stroke-dashoffset: 358;
+    }
+
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes worm2 {
+    from {
+        stroke-dashoffset: 358;
+    }
+
+    50% {
+        stroke-dashoffset: 0;
+    }
+
+    to {
+        stroke-dashoffset: -358;
+    }
+}
+
+.waveMenu {
+    border: 4px solid #425BAE;
+    border-radius: 50px;
+    width: 200px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: ease 0.2s;
+    position: relative;
+    /* background: #fff; */
+    margin: 5rem auto;
+}
+
+.waveMenu li {
+    list-style: none;
+    height: 30px;
+    width: 4px;
+    border-radius: 10px;
+    background: #425BAE;
+    margin: 0 6px;
+    padding: 0;
+    animation-name: wave1;
+    animation-duration: 0.3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: ease 0.2s;
+}
+
+.waveMenu:hover>li {
+    background: #fff;
+}
+
+.waveMenu:hover {
+    background: #425BAE;
+}
+
+.waveMenu li:nth-child(2) {
+    animation-name: wave2;
+    animation-delay: 0.2s;
+}
+
+.waveMenu li:nth-child(3) {
+    animation-name: wave3;
+    animation-delay: 0.23s;
+    animation-duration: 0.4s;
+}
+
+.waveMenu li:nth-child(4) {
+    animation-name: wave4;
+    animation-delay: 0.1s;
+    animation-duration: 0.3s;
+}
+
+.waveMenu li:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.waveMenu li:nth-child(6) {
+    animation-name: wave2;
+    animation-duration: 0.5s;
+}
+
+.waveMenu li:nth-child(8) {
+    animation-name: wave4;
+    animation-delay: 0.4s;
+    animation-duration: 0.25s;
+}
+
+.waveMenu li:nth-child(9) {
+    animation-name: wave3;
+    animation-delay: 0.15s;
+}
+
+@keyframes wave1 {
+    from {
+        transform: scaleY(1);
+    }
+
+    to {
+        transform: scaleY(0.5);
+    }
+}
+
+@keyframes wave2 {
+    from {
+        transform: scaleY(0.3);
+    }
+
+    to {
+        transform: scaleY(0.6);
+    }
+}
+
+@keyframes wave3 {
+    from {
+        transform: scaleY(0.6);
+    }
+
+    to {
+        transform: scaleY(0.8);
+    }
+}
+
+@keyframes wave4 {
+    from {
+        transform: scaleY(0.2);
+    }
+
+    to {
+        transform: scaleY(0.5);
+    }
+}
